@@ -8,7 +8,7 @@
         body{
             background-color: rgba(0, 0, 255, 0.603);
             color: white;
-            font: normal 20pt Arial;
+            font: normal 20pt Arial; /* Comentario em CSS3 */
         }
         h1{
             color: rgba(255, 255, 0, 0.623);
@@ -16,12 +16,15 @@
     </style>
 </head>
 <body>
-    <h1>Olá, mundo!</h1>
+    <h1>Olá, mundo!</h1> <!--Comentario em HTML5-->
     <p>Já me livrei da maldição.</p>
     <script>
-        window.alert('Minha primeira mensagem') // Mensagem de inicio
-        window.confirm('Está gostando de JS?') // Janela com botões ok e cancelar
-        window.prompt('Qual é seu nome ?') // Janela para por nomes
+        var n1 = window.prompt('Digite um número:') // valor string
+        var n2 = window.prompt('Digite mais um número:') // valor string
+        var s = n1 + n2
+        window.alert('A soma dos valores é:' + s)
+        //(number + number) para adição
+        //(string + string)concatenção
     </script>
 </body>
 </html>
