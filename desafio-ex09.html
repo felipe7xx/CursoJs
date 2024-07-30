@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Países</title>
+</head>
+<body>
+    <h1>Sistema de países</h1>
+    <p>Digite o país em que você mora <input type="text" name="pais" id="pais"></p>
+    <input type="button" value="Envie" onclick="enviar()">
+    <div id="res">
+
+    </div>
+    <script>
+        function enviar(){
+            var pais = window.document.getElementById('pais')
+            var res = window.document.querySelector('div#res')
+            var mora = (pais.value)
+            if(mora == 'Brasil'){
+                res.innerHTML = ('Você é brasileiro')
+            }
+            else{
+                res.innerHTML = ('Você é estrangeiro!')
+            }
+        }
+    </script>
+</body>
+</html>
