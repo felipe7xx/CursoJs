@@ -26,3 +26,4 @@ function adicionar(){
         window.alert('Valor inválido ou já encontrado na lista.')
     }
 }
+
