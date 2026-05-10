@@ -7,3 +7,5 @@ peso:  85.4, engordar(p=0){
 
 amigo.engordar(2)
 console.log(`${amigo.nome} pesa ${amigo.peso} kilos}`)
+
+window.alert('fim')
